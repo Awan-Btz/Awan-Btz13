@@ -23,7 +23,7 @@ ${usedPrefix + command} buka
 handler.help = ['grup <buka/tutup>']
 handler.tags = ['group']
 handler.command = /^(gro?up)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = false
