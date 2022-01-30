@@ -45,11 +45,11 @@ lolkey = 'RFK-Rey'
 zekskey = 'apivinz'
 xteamkey = 'Dawnfrostkey'
 //xteam        MIMINETBOT
-namaig = 'https://instagram.com/drak_ipul123'
-namagithub = 'GAK ADA :)'
+namaig = 'https://instagram.com/seti._awan'
+namagithub = 'https://github.com/Awan-Btz'
 kasihcaption = `Nih kak`
-namakontak1 = 'King Of Bear'
-namakontak2 = 'King Of Bear'
+namakontak1 = 'SeanChann'
+namakontak2 = 'SeanChann'
 
 //kasihcaption = `Nih Kak`
 
