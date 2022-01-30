@@ -2,13 +2,13 @@ let handler = async (m, { conn }) => {
 	conn.reply(m.chat, `╠═〘 PEMBAYARAN 〙 ═
 ╠═ Untuk Pembayaran Via DANA
 ╠➥ Ke nomer ini
-║➥ 085730903853
+║➥ 0895411143170
 ║
 ╠═〘 Fitur 〙 ═
 ║
 ╠➥ *FITUR DOWNLOADER 500++
-║     YouTube, Twitter, 
-║     Tiktok, Instagram, dll.
+║     YouTube,
+║     Tiktok, dll.
 ║    *FITUR STIKER*
 ╠➥ *FITUR ADMIN*
 ║    *KICK ORANG*
