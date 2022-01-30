@@ -1,8 +1,8 @@
 let handler = function (m) {
-	this.sendContact(m.chat, '6288279268363', 'Owner YukiBot :)', m)
+	this.sendContact(m.chat, '62895411143170', 'Owner TiaBot :)', m)
 }
 
-handler.customPrefix = ['🍭Owner YukiBot'] 
+handler.customPrefix = ['🍭Owner TiaBot'] 
 handler.command = new RegExp
 
 module.exports = handler
