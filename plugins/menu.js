@@ -25,8 +25,6 @@ const defaultMenu = {
 ┃
 ┃⬡ Uptime: *%uptime (%muptime)*
 ┃⬡ Database: %rtotalreg dari %totalreg
-┃⬡ Github:
-┃⬡ https://youtu.be/KVPPe5V7WMo
 ┃
 ┗━━━━━━⬣`.trimStart(),
   header: '┏━━〔 %category 〕━⬣',
@@ -240,11 +238,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ┃⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┃
-┃⬡ Script by KING OF BEAR
-┃⬡ Github Name : KING OF BEAR
-┃⬡ Yt : KING OF BEAR
+┃⬡ Script Recode by SeanChann
+┃⬡ Github Name : Awan-Btz
 ┃⬡ Run bot : Heroku
-┃⬡ Tipe SC YUKI BOT
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
