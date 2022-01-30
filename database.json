@@ -221,7 +221,7 @@
     "62895359053690@s.whatsapp.net": {
       "healt": 0,
       "level": 0,
-      "exp": 47,
+      "exp": 55,
       "title": "",
       "limit": 50,
       "lastclaim": 0,
@@ -340,10 +340,10 @@
       "lastSuccess": 0
     },
     "menu.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1643505908208,
-      "lastSuccess": 1643505908208
+      "total": 6,
+      "success": 6,
+      "last": 1643508748126,
+      "lastSuccess": 1643508748126
     }
   },
   "msgs": {},
