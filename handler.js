@@ -109,8 +109,8 @@ module.exports = {
                 if (!isNumber(user.serial)) user.serial
                 if (!isNumber(user.regTime)) user.regTime = -1
             }
-            if (!('autolevelup' in user)) user.autolevelup = true
-            if (!('lastIstigfar' in user)) user.lastIstigfar = true
+            if (!('autolevelup' in user)) user.autolevelup = false
+            if (!('lastIstigfar' in user)) user.lastIstigfar = false
         } else global.db.data.users[m.sender] = {
             healt: 100,
             level: 0,
@@ -191,7 +191,7 @@ module.exports = {
         if (typeof chat !== 'object') global.db.data.chats[m.chat] = {}
         if (chat) {
           if (!('isBanned' in chat)) chat.isBanned = false
-          if (!('welcome' in chat)) chat.welcome = false
+          if (!('welcome' in chat)) chat.welcome = true
           if (!('detect' in chat)) chat.detect = false
           if (!('sWelcome' in chat)) chat.sWelcome = ''
           if (!('sBye' in chat)) chat.sBye = ''
@@ -200,7 +200,7 @@ module.exports = {
           if (!('descUpdate' in chat)) chat.descUpdate = true
           if (!('delete' in chat)) chat.delete = false
           if (!('antiBadword' in chat)) chat.antiBadword = true
-          if (!('rpg' in chat)) chat.delete = true
+          if (!('rpg' in chat)) chat.delete = false
           if (!('nsfw' in chat)) chat.delete = false
           if (!('antiLink' in chat)) chat.antiLink = false
           if (!('viewonce' in chat)) chat.viewonce = true
@@ -376,10 +376,12 @@ module.exports = {
           if (plugin.group && !m.isGroup) { // Group Only
             fail('group', m, this)
             continue
-          } else if (plugin.botAdmin && !isBotAdmin) { // You Admin
+          }
+            if (plugin.botAdmin && !isBotAdmin) { // You Admin
             fail('botAdmin', m, this)
             continue
-          } else if (plugin.admin && !isAdmin) { // User Admin
+          } 
+            if (plugin.admin && !isAdmin) { // User Admin
             fail('admin', m, this)
             continue
           }
