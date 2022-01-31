@@ -24,32 +24,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 
 ➥ ${namabot} Versi ${package.version}
-➥ *Yt:* https://youtu.be/KVPPe5V7WMo
 ➥ *Ping:* ${neww - old} *ms*
 ➥ *Total user:* ${totalreg} *user*
 ➥ *Uptime:* ${uptime}
-
-═ 〘 DONASI 〙 ═
-➥ Pulsa : 6288279268363
-➥ Dana & OVO: 6288279268363
-
-
-➥ Request? https://youtu.be/KVPPe5V7WMo
-
-Official Grup :
-
-Grup 1 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
-
-Grup 2 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
-
-Grup 3 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
-
-
  ©BaseNew ${namabot}
- Script original by KING OF BEAR
  
  
 ═〘 ${namabot} 〙 ═
