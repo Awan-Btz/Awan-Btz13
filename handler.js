@@ -203,7 +203,7 @@ module.exports = {
           if (!('rpg' in chat)) chat.delete = false
           if (!('nsfw' in chat)) chat.delete = false
           if (!('antiLink' in chat)) chat.antiLink = false
-          if (!('viewonce' in chat)) chat.viewonce = true
+          if (!('viewonce' in chat)) chat.viewonce = false
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
           welcome: false,
@@ -218,7 +218,7 @@ module.exports = {
           nsfw: false,
           antiBadword: true,
           antiLink: false,
-          viewonce: true,
+          viewonce: false,
         }
         
                 let settings = global.db.data.settings[this.user.jid]
@@ -232,7 +232,7 @@ module.exports = {
           if (!isNumber(settings.backupDB)) settings.backupDB = 0
           if (!'groupOnly' in settings) settings.groupOnly = false
           if (!'jadibot' in settings) settings.groupOnly = false
-          if (!'nsfw' in settings) settings.nsfw = true
+          if (!'nsfw' in settings) settings.nsfw = false
           if (!isNumber(settings.status)) settings.status = 0
         } else global.db.data.settings[this.user.jid] = {
           anon: true,
@@ -243,7 +243,7 @@ module.exports = {
           backupDB: 0,
           groupOnly: false,
           jadibot: false,
-          onsfw: true,
+          onsfw: false,
           status: 0,
         }
       } catch (e) {
