@@ -16,10 +16,10 @@ gc1 = ''
 gc2 = ''
 gc3 = ''
 global.linkGC = ['https://chat.whatsapp.com/KIpR2hclCVK6ACegAp5aC5', ''] // ganti jadi group lu
-global.owner = ['62895411143170'] // Put your number here //owner eval
+global.owner = ['62895411143170','6285227606552','6283177800888','6283138035145','6285227606552','6283177800888','6283138035145','62895359053690'] // Put your number here //owner eval
 global.kontak = ['62895411143170','0'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['62895411143170'] // Premium user has unlimited limit
+global.prems = ['62895411143170','6285227606552','6283177800888','6283138035145','6285227606552','6283177800888','6283138035145','62895359053690'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
