@@ -13,8 +13,8 @@ conn.reply(m.chat, 'Sukses mengganti Deskripsi Group!', m)
 handler.help = ['setdesk <teks>']
 handler.tags = ['group']
 handler.command = /^(setdesk)$/i
-handler.owner = false
-handler.mods = false
+handler.owner = true
+handler.mods = true
 handler.premium = false
 handler.group = true
 handler.private = false
